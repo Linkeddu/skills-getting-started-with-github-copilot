@@ -143,6 +143,7 @@ footer {
   color: #666;
 }
 
+/* Sezione partecipanti aggiornata */
 .participants-section {
   margin-top: 12px;
   padding: 10px;
@@ -157,8 +158,36 @@ footer {
 
 .participants-list {
   margin-top: 6px;
-  margin-left: 18px;
   color: #3949ab;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  padding: 4px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.participant-item:last-child {
+  border-bottom: none;
+}
+
+.participant-email {
+  flex: 1;
+  font-size: 15px;
+  color: #3949ab;
+}
+
+.delete-icon {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #c62828;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+
+.delete-icon:hover {
+  color: #b71c1c;
 }
 
 .no-participants {
